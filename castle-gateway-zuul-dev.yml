@@ -1,3 +1,8 @@
 test:
   user:
-    name: cgabcdef
+    name: ggcgabcdef
+zuul:
+  routes: 
+    testRoute:
+      path: /testb
+      url: http://www.baidu.com
