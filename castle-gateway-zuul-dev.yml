@@ -1,6 +1,7 @@
 test:
   user:
     name: ggcgabcdefddddd
+    password: '{cipher}70ecbf42e2e2eb88c189bb6fbbde6f9c5ad0eb53fe68bfd8574395445c253fa4'
 zuul:
   routes: 
     testRoute:
