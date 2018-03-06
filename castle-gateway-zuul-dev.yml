@@ -7,3 +7,12 @@ zuul:
     testRoute:
       path: /testb
       url: http://www.baidu.com
+    abc:
+      path: /invoker/**
+      serviceId: castle-service-invoker
+    bcd:
+      path: /bb
+      url: castle-service-provider
+    gp:
+      path: /gg/**
+      url: forward:/gp
